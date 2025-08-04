@@ -1,0 +1,71 @@
+
+body {
+  background-color: #000;
+  color: #f0f0fa;
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+nav a {
+  color: #f0f0fa;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.logo {
+  height: 50px;
+}
+.hero {
+  height: 100vh;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 3.5rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: rgba(240, 240, 250, 0.8);
+}
+.section {
+  padding: 100px 20px;
+  background: #111;
+  text-align: center;
+}
+.carousel {
+  font-size: 14px;
+  text-align: center;
+  padding: 8px;
+  background: #080808;
+  color: #ccc;
+}
+footer {
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #666;
+  background: #000;
+  text-align: center;
+  position: relative;
+}
+.tkaua {
+  position: absolute;
+  right: 12px;
+  bottom: 6px;
+  font-size: 8px;
+  color: #333;
+}
